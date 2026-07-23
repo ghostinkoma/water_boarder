@@ -1,4 +1,8 @@
+<!-- Language / 言語: **English** | [日本語](README.ja.md) -->
+
 # WaterBoader (PIC12F1840)
+
+> 🇯🇵 **日本語の解説・初心者向け構築ガイドは [README.ja.md](README.ja.md) / [docs/ja/](docs/ja/) にあります。**
 
 Non-contact **capacitive water-level sensor** as an **I2C slave** (default `0x20`).
 A PIC12F1840 senses water through a tank wall (glass/plastic) with a differential
