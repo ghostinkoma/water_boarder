@@ -1,0 +1,31 @@
+{
+  "name": "WaterBoader",
+  "version": "1.0.0",
+  "description": "Driver for the PIC12F1840 non-contact capacitive water-level sensor (I2C slave). Reads water present/absent, raw differential value and die temperature; configures boundary/hysteresis, runs an interactive calibration wizard, persists calibration to the sensor's EEPROM (autonomy), and recovers from I2C faults with reset-cause reporting.",
+  "keywords": [
+    "capacitive",
+    "water-level",
+    "non-contact",
+    "PIC12F1840",
+    "I2C",
+    "sensor",
+    "CPS"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ghostinkoma/WaterBoader.git"
+  },
+  "authors": [
+    {
+      "name": "ghostinkoma",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": "*",
+  "headers": "WaterBoader.h",
+  "dependencies": {
+    "Wire": "*"
+  }
+}

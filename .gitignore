@@ -1,0 +1,28 @@
+# --- PIC / XC8 firmware build artifacts (regenerable) ---
+build/
+*.elf
+*.hex
+*.o
+*.p1
+*.d
+*.s
+*.lst
+*.rlf
+*.sdb
+*.sym
+*.cmf
+*.hxl
+startup.*
+__eeprom.*
+*.mptags
+
+# --- editor / OS junk ---
+#auto_saved_files#
+_autosave-*
+~*.lck
+.DS_Store
+Thumbs.db
+
+# --- Arduino / PlatformIO build output ---
+.pio/
+*.build/
