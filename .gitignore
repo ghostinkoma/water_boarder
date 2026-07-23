@@ -1,9 +1,17 @@
-# --- PIC / XC8 firmware build artifacts (regenerable) ---
+# --- MPLAB X project build output (regenerable; keep only source + nbproject config) ---
 build/
+dist/
+debug/
+# 内部スラッシュを含むパターンはルート基準にアンカーされるため **/ で深さ非依存化
+**/nbproject/private/
+**/nbproject/Makefile-local-*.mk
+
+# --- PIC / XC8 firmware build artifacts (regenerable) ---
 *.elf
 *.hex
 *.o
 *.p1
+*.i
 *.d
 *.s
 *.lst
@@ -12,6 +20,9 @@ build/
 *.sym
 *.cmf
 *.hxl
+*.map
+*.mum
+memoryfile.xml
 startup.*
 __eeprom.*
 *.mptags
